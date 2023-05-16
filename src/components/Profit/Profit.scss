@@ -1,12 +1,11 @@
 .profit {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 180px;
+  height: 185px;
+  width: 185px;
   position: relative;
   cursor: pointer;
   transition: 0.3s;
-  margin: 5px;
   color: #fff;
   font-weight: 100;
 
@@ -28,20 +27,33 @@
   }
 
   &__item {
-    width: 100%;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     text-align: center;
+    transform: translate(-3px, 27px);
   }
 
   &__caption {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     line-height: 19px;
+    transform: translate(-1px, 10px);
+    font-size: 18px;
   }
 
   &__number {
     font-weight: 900;
-    font-size: 56px;
+    font-size: 58px;
+    line-height: 42px;
+  }
+
+  &__number-container {
+    transform: translate(-3px, 1px);
+  }
+
+  &__desc {
+    font-size: 19px;
   }
 
   &__number-special-text {

@@ -33,7 +33,7 @@ const LandingPage = () => {
               title="календарик за"
               number="2001"
               specialText="г."
-              description="на рынке"
+              description="в подарок"
             />
             <Profit title="путешествие" number="597" description="дней" />
             <div className="landing__profits-cover" />

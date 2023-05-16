@@ -1,9 +1,9 @@
 .landing {
   max-width: 1170px;
-  margin: 50px auto 0 auto;
+  margin: 37px auto 0 auto;
 
   &__right-side {
-    transform: translateX(42px);
+    transform: translateX(25px);
 
     @media (max-width: 1250px) {
       transform: none;
@@ -71,8 +71,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    font-size: 56px;
+    font-size: 58px;
     font-weight: 700;
+    line-height: 52px;
     margin: 0;
 
     @media (max-width: 475px) {
@@ -84,9 +85,10 @@
     background: linear-gradient(90deg, #fff 0%, #ff3f00 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 24px;
+    letter-spacing: 0.35px;
 
     @media (max-width: 475px) {
       font-size: 14px;
@@ -94,7 +96,7 @@
   }
 
   &__left-side {
-    padding-top: 80px;
+    padding-top: 76px;
 
     @media (max-width: 880px) {
       display: flex;
@@ -127,7 +129,7 @@
   }
 
   &__text {
-    margin-bottom: 70px;
+    margin-bottom: 88px;
 
     @media (max-width: 880px) {
       margin-bottom: 100px;
@@ -232,7 +234,7 @@
   &__container-line {
     position: absolute;
     left: 260.5px;
-    bottom: 77px;
+    bottom: 54px;
     width: 320px;
     border: 1px solid transparent;
     border-image-slice: 1;
@@ -279,6 +281,34 @@
   @media (max-width: 1250px) {
     padding: 0 20px;
   }
+}
+
+.profit:nth-child(2) {
+  transform: translateX(10px);
+}
+
+.profit:nth-child(2) .profit__item {
+  transform: translate(0px, 27px);
+}
+
+.profit:nth-child(3) {
+  transform: translateY(10px);
+}
+
+.profit:nth-child(3) .profit__item {
+  transform: translate(-2px, 21px);
+}
+
+.profit:nth-child(4) {
+  transform: translate(10px, 10px);
+}
+
+.profit:nth-child(4) .profit__item {
+  transform: translate(0px, 21px);
+}
+
+.profit:nth-child(4) .profit__item {
+  transform: translate(0px, 21px);
 }
 
 .profit:nth-child(1) .profit__background {
