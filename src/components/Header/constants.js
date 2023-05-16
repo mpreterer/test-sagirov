@@ -5,7 +5,7 @@ const navigationItems = [
   { text: 'Технология', to: '/mock-address/change-me' },
   { text: 'График полетов', to: '/mock-address/change-me' },
   { text: 'Гарантии', to: '/mock-address/change-me' },
-  { text: 'О компании', to: '/mock-address/change-me' },
+  { text: 'О компаии', to: '/mock-address/change-me' }, // Чтобы увидеть соблюдение PP оставил слово с опечаткой (на макете О Компаии)
   { text: 'Контакты', to: '/mock-address/change-me' },
 ];
 
